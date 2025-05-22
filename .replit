@@ -1,0 +1,10 @@
+language = "python3"
+run = "python3 app.py"
+entrypoint = "app.py"
+modules = ["python-3.11"]
+
+[nix]
+
+[[ports]]
+localPort = 5000
+externalPort = 80
